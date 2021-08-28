@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("Number of Days to Hours")
-st.write("Simple calculation for days to hours")
+st.write("Simple calculation to convert days to hours")
 from days_to_units import days_to_units
 user_input=int(st.text_input("Enter number of days to convert in number of hours::"))
 total_hours=days_to_units(user_input)
